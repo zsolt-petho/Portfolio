@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozó oldalam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<a id="top_button" href="#"><i class="fa fa-arrow-circle-o-up"></i></a>
+
+<!-- FEJLÉC (menü)-->
+    <nav>
+        <ul>
+            <li><a href="#about">bemutatkozás</a></li>
+            <li><a href="#portfolio">portfólióm</a></li>
+            <li><a href="#contact">kapcsolat</a></li>
+            <li><a href="#message">üzenetküldés</a></li>
+
+        </ul>
+    </nav>
+
+<main>
+    <!-- ELSŐ BLOKK (bemutatkozás) -->
+    <h1>Üdvözlöm a honlapomon!</h1>
+        <section id="about" class="rolam">
+            <div class="adatok">
+                <h2>Pethő Zsolt vagyok</h2>
+                    <p class="felkover">~ webfejlesztő, programozó ~</p>
+                    <p>Weboldalak, webes alkalmazások tervezésével és megvalósításával foglalkozom.</p>
+            </div>
+            
+            <div class="kep">
+                <img src="./en0.jpg" alt="profilkép"/>
+            </div>
+            
+            <div class="tapasztalat">
+                <h3>Munkám során az alábbi eszközökkel dolgozom:</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="bal">HTML5</td>
+                                <td class="jobb">Python</td>
+                            </tr>
+                            <tr>
+                                <td class="bal">CSS3</td>
+                                <td class="jobb">GIT</td>
+                            </tr>
+                            <tr>
+                                <td class="bal">JavaScript</td>
+                                <td class="jobb">Bootstrap</td>
+                            </tr>
+                            <tr>
+                                <td class="bal">SQL</td>
+                                <td class="jobb">React</td>
+                            </tr>
+                            <tr>
+                                <td class="bal">Django</td>
+                                <td class="jobb">JSON</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </section>
+
+    <!-- MÁSODIK BLOKK (munkáim)-->
+        <div id="portfolio"><h2>Referencia munkáim</h2></div>
+            <section class="projektek">  
+                <div class="munka">
+                    <a href="https://google.com" target="_blank"> 
+                    <img src="./football.jpg" alt="focilabda">
+                    <p>Futball statisztikák</p></a></div>
+                <div class="munka">
+                    <a href="https://google.com" target="_blank"> 
+                    <img src="./https.jpg" alt="https kép">
+                    <p>Feltöltés alatt</p></a></div>
+
+                <div class="munka">
+                    <a href="https://google.com" target="_blank"> 
+                    <img src="./https.jpg" alt="https kép">
+                    <p>Feltöltés alatt</p></a></div>
+
+                <div class="munka">
+                    <a href="https://google.com" target="_blank"> 
+                    <img src="./https.jpg" alt="https kép">
+                    <p>Feltöltés alatt</p></a></div>
+            </section>    
+            
+    <!-- HARMADIK BLOKK (kapcsolat)-->
+        <div id="contact"><h2>Kapcsolat</h2></div>
+            <section class="kapcsolat">
+                <p>Amennyiben szeretné felvenni velem a kapcsolatot, <span class="alahuzott">kérem keressen bizalommal</span> az alábbi elérhetőségek valamelyikén:</p>
+                    <div class="kapcs">
+                        <p><span class="felkover">Cím:</span> 1013 Budapest, Clark Ádám tér 1.</p>
+                        <p><span class="felkover">E-mail:</span> contact@me.com</p>
+                        <p><span class="felkover">Telefon:</span> +36/80-555-3344</p>
+                    </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.5966658009515!2d19.03790871550418!3d47.49777017917762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc3c5a8abbeb%3A0x8214cc57cec28ca2!2zQnVkYXBlc3QsIENsYXJrIMOBZMOhbSB0w6lyIDEsIDEwMTM!5e0!3m2!1shu!2shu!4v1595523491817!5m2!1shu!2shu" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                 
+        
+                <div class="social__media">
+                    <a href="https://www.linkedin.com" class="ikon__li" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.github.com" class="ikon__gh" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com" class="ikon__fb" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" class="ikon__tw" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com" class="ikon__yt" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.instagram.com" class="ikon__in" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+             </section>
+
+    <!-- NEGYEDIK BLOKK (üzenet)-->
+        <div id="message"><h2>Küldjön üzenetet!</h2></div> 
+            <section  class="uzenet">
+                <p>Amennyiben <span class="alahuzott">kérdése lenne, vagy ingyenes konzultációra </span>szeretne jelentkezni, egyszerűen megteheti az alábbi űrlap kitöltésével is:</p>
+                    <form action="https://formspree.io/maypznkz" method="post">
+
+            <!--Vezetéknév-->
+              <div>
+                <label for="nev" class="text-label">
+                    <span>Név:</span></label>
+                        <input
+                        type="text"
+                        name="név"
+                        id="nev"
+                        class="text-input"
+                        placeholder="Név"
+                        required/>
+              </div>
+
+            <!--E-mail-->
+            <div>
+                <label for="email" class="text-label">
+                    <span>E-mail:</span></label>
+                        <input
+                        type="email"
+                        name="e-mail"
+                        id="email"
+                        class="text-input"
+                        placeholder="E-mail"/>
+            </div>
+
+            <!--Tárgy-->
+              <div>
+                <label for="targy" class="text-label">
+                    <span>Tárgy:</span></label>
+                        <input
+                        type="text"
+                        name="tárgy"
+                        id="targy"
+                        class="text-input"
+                        placeholder="Az üzenet tárgya"/>
+              </div>
+
+            <!--Megjegyzés mező-->
+            <div>
+                <label for="megjegyzes" class="text-label">
+                    <span>Üzenet:</span></label>
+                        <textarea 
+                        name="üzenet" 
+                        id="megjegyzes"
+                        class="text-input"
+                        rows="10"
+                        cols="30"
+                        placeholder="Írja le az üzenetét!"
+                        required
+                        ></textarea> 
+            </div> 
+
+            <!--Adatvédelmi Tájékoztató-->
+            <div class="adatvedelem">
+                <label>
+                        <input 
+                        type="checkbox" 
+                        name="adatvedelem" 
+                        value="igen"
+                        required/>
+                Elolvastam és elfogadom az <a href="https://google.com" target="_blank"><span class="felkover">Adatvédelmi Tájékoztatóban</span></a> leírtakat.    
+                </label>     
+            </div>
+
+            <!--Beküldés gomb-->
+            <div>
+                <input type="submit" value="Küldés" class="submit-gomb"/>
+            </div> 
+        </form>    
+    </section>       
+</main>
+
+    <!-- FOOTER-rész-->
+        <footer>
+            Copyright &copy; 2020 PZS – Minden jog fenntartva.
+        </footer>
+
+    </body>
+</html>
